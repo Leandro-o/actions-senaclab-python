@@ -1,13 +1,12 @@
 name: Simple Python Build
 
 # teste
-# teste
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 permissions:
   contents: read
