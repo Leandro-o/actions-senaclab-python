@@ -1,6 +1,5 @@
 name: Simple Python Build
 
-# teste
 
 on:
   push:
