@@ -23,7 +23,9 @@ jobs:
           python-version: "3.9"
 
       - name: Run tests
-        run: python -m unittest discover -s src/tests -p "test_sample.py"
+        run: |
+          export PYTHONPATH=$PYTHONPATH:$(pwd)/src
+          python -m unittest discover -s src/tests -p "test_*.py"
 
       - name: Package application
         run: |
