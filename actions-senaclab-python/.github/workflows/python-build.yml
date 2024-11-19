@@ -1,8 +1,5 @@
 name: Simple Python Build
 
-# teste
-# teste
-
 on:
   push:
     branches: [ "main" ]
