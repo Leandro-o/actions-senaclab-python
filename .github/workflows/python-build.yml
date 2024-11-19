@@ -29,6 +29,7 @@ jobs:
 
       - name: Package application
         run: |
+          ls -la
           python setup.py sdist bdist_wheel
           mkdir dist_package && cp dist/* dist_package
 
