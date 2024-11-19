@@ -1,5 +1,7 @@
 name: Simple Python Build
 
+# teste
+
 on:
   push:
     branches: [ "main" ]
@@ -31,7 +33,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip setuptools wheel    
 
-      - name: Package application
+      - name: Package applicationa
         run: |
           python -m pip install --upgrade pip setuptools wheel
           python setup.py sdist bdist_wheel
