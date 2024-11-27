@@ -58,8 +58,8 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: python-app
-          path: .
+          name: Python Package
+          path: .artifact
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
